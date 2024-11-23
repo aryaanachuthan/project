@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Coffee Shop</title>
+    <link rel="stylesheet" href="css/menu-style.css">
+    <script src="js/cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Coffee-logo.jpg" alt="Coffee Shop Logo">
+            <span class="shop-name">Not Coffee</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Menu Section -->
+        <div class="menu-section">
+            <!-- Snacks Row -->
+            <div class="menu-row">
+                <h2>Coffee</h2>
+                <div class="menu-items">
+                    <!-- Snack Item -->
+                    <div class="menu-item">
+                        <img src="images/snack1.jpg" alt="Snack 1">
+                        <h3>Cappuccino</h3>
+                        <p>$2.50</p>
+                        <button onclick="addToCart('Cappuccino', 2.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack2.jpg" alt="Snack 2">
+                        <h3>Latte</h3>
+                        <p>$3.00</p>
+                        <button onclick="addToCart('Latte', 3.00)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack3.jpg" alt="Snack 3">
+                        <h3>Frappuccino</h3>
+                        <p>$2</p>
+                        <button onclick="addToCart('Frappuccino', 2)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack4.jpg" alt="Snack 4">
+                        <h3>Mocha</h3>
+                        <p>$3.50</p>
+                        <button onclick="addToCart('Mocha', 3.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack5.jpg" alt="Snack 5">
+                        <h3>Americano</h3>
+                        <p>$4.50</p>
+                        <button onclick="addToCart('Americano', 4.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack6.jpg" alt="Snack 6">
+                        <h3>Macchiato</h3>
+                        <p>$4.00</p>
+                        <button onclick="addToCart('Macchiato', 4.00)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack7.jpg" alt="Snack 7">
+                        <h3>Irish Coffee</h3>
+                        <p>$5.50</p>
+                        <button onclick="addToCart('Irish Coffee', 5.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack8.jpg" alt="Snack 8">
+                        <h3>Ice Coffee</h3>
+                        <p>$3.00</p>
+                        <button onclick="addToCart('Ice Coffee', 3.00)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <!-- Snacks Row -->
+            <div class="menu-row">
+                <h2>Snacks</h2>
+                <div class="menu-items">
+                    <!-- Snack Item -->
+                    <div class="menu-item">
+                        <img src="images/snack9.jpg" alt="Snack 1">
+                        <h3>Croissant</h3>
+                        <p>$2.50</p>
+                        <button onclick="addToCart('Croissant', 2.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack10.jpg" alt="Snack 2">
+                        <h3>Muffin</h3>
+                        <p>$3.00</p>
+                        <button onclick="addToCart('Muffin', 3.00)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack11.jpg" alt="Snack 3">
+                        <h3>French Fries</h3>
+                        <p>$3.50</p>
+                        <button onclick="addToCart('french Fries', 3.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack12.jpg" alt="Snack 4">
+                        <h3>Pizza</h3>
+                        <p>$3.00</p>
+                        <button onclick="addToCart('Pizza', 3.00)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack13.jpg" alt="Snack 5">
+                        <h3>Cheese Burger</h3>
+                        <p>$2.50</p>
+                        <button onclick="addToCart('Cheese Burger', 2.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack14.jpg" alt="Snack 6">
+                        <h3>Ham Sandwich</h3>
+                        <p>$4.00</p>
+                        <button onclick="addToCart('Ham Sandwich', 4.00)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack15.jpg" alt="Snack 7">
+                        <h3>Salad Sandwich</h3>
+                        <p>$5.50</p>
+                        <button onclick="addToCart('Salad Sandwich', 5.50)">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/snack16.jpg" alt="Snack 8">
+                        <h3>Hot Chicken Roll</h3>
+                        <p>$6.00</p>
+                        <button onclick="addToCart('Hot Chicken Roll', 6.00)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-section">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p id="total">Total: $0.00</p>
+            <a href="checkout.html" class="checkout-button">Checkout</a>
+
+        </div>
+        
+
+    <footer>
+        <p>&copy; 2024 My Coffee Shop. All rights reserved.</p>
+        <p>
+            Follow us on:
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Instagram</a> |
+            <a href="#" target="_blank">Twitter</a>
+        </p>
+    </footer>
+    <script src="js/cart.js" defer></script>
+</body>
+</html>
